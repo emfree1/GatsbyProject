@@ -9,7 +9,7 @@ module.exports = {
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
-  pathPrefix: "GatsbyProject",
+  pathPrefix: "/GatsbyProject",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,

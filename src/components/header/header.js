@@ -33,7 +33,7 @@ const Header = () => {
   `)
 
   return (
-    <header className="header container-lg">
+    <header className="header container-lg" style={{ backgroundImage: `url(${data.prismicBlogPage.data.main_image.fluid.src})` }}>
       <HeaderNav dataLinks={data.prismicBlogPage.data?.navigation || []} />
       <HeaderBody
         buttonName={data.prismicBlogPage.data.name_of_the_button.text}

@@ -1,0 +1,20 @@
+.most-recent {
+  margin-top: 40px;
+
+  &--title {
+    font-family: var(--font-default-1);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #2e2e2e;
+    margin-bottom: 40px;
+  }
+
+  &--wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

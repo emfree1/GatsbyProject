@@ -1,0 +1,13 @@
+@import './core/variables';
+@import './global';
+@import './layout';
+@import './components/header/header';
+@import './components/header/headerNav';
+@import './components/header/headerBody';
+@import './components/footer/footer';
+@import './components/footer/footerInput';
+@import './components/main//filterPosts';
+@import './components/main/featurePost/featurePosts';
+@import './components/main/featurePost/featurePost';
+@import './components/main/mostRecent/recent.scss';
+@import './components/main/mostRecent/mostRecent.scss';
